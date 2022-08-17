@@ -1,0 +1,68 @@
+/* MOBILE  */
+@media(max-width: 740px){
+    #nav .nav-btn{
+        display: none;
+    }
+    #project .project-row-1 .house-display,
+    #project .project-row-2 .house-display {
+        width: 100%;
+    }
+    #about-arch .architect-member {
+        display: block;
+    }
+    .member-1,
+    .member-4{
+        width: auto;
+        margin-bottom: 16px;
+    }
+    #about-arch .member{
+        width: auto;
+        margin-bottom: 16px;
+    }
+    .text-content{
+        display: none;
+    }
+    .text-content-mobile{
+        color: white;
+        position: relative;
+        top: -110px;
+        z-index: 1;
+        text-align: center;
+        font-size: 17px;
+    }
+    .text-heading-slider-mobile{
+        background-color: #000;
+        padding: 12px 16px;
+        margin-right: 12px;
+        opacity: 0.75;
+    }
+    }
+    /* PC  */
+    @media(min-width: 740px){
+    .text-content-mobile{
+        display: none;
+    }
+    
+    }
+    /* TABLET  */
+    @media(min-width: 740px) and (max-width: 1240px){
+    #about-arch .member {
+        width: 47.66666666666%;
+        margin-bottom: 16px;
+    }
+    #slider .text-content {
+        top: -252px;
+    }
+    #project .project-row-1 .house-display, #project .project-row-2 .house-display {
+        width: 50%;
+        float: left;
+    }
+    #about-arch .architect-member {
+        display: block;
+    }
+    .text-content-mobile{
+        display: none;
+    }
+    
+    }
+    
